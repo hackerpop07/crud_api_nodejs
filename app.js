@@ -24,8 +24,6 @@ app.use(bodyParser.urlencoded({extended: false}));
 
 //routers import
 const product = require('./routers/product.route');
-
-//routers
 app.use('/products', product);
 
 let port = 3000;
